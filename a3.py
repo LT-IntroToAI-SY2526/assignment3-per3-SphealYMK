@@ -146,8 +146,10 @@ def year_by_title(matches: List[str]) -> List[int]:
     Returns:
         a list of one item (an int), the year that the movie was made
     """
-    pass
-
+    year = int(matches[0])
+    print(year)
+    for movie in movie_db;
+        print(movie)
 
 def title_by_actor(matches: List[str]) -> List[str]:
     """Finds titles of all movies that the given actor was in
@@ -241,6 +243,9 @@ if __name__ == "__main__":
     assert sorted(title_after_year(["1990"])) == sorted(
         ["boyz n the hood", "dead again", "the crying game", "flirting", "malcolm x"]
     ), "failed title_after_year test"
+    assert ininstance(title_after_year(["2025"])) == sorted(
+        ["A Minecraft Movie"]
+    ), "failed title_after_year"
     assert isinstance(director_by_title(["jaws"]), list), "director_by_title not returning a list"
     assert sorted(director_by_title(["jaws"])) == sorted(
         ["steven spielberg"]
