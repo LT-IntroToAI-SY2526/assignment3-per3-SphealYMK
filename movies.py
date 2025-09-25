@@ -435,4 +435,17 @@ movie_db: List[Tuple[str, str, int, List[str]]] = [
             "spike lee",
         ],
     ),
+    (
+        "the minecraft movie",
+        "jared hess",
+        2025
+        [
+            "Jason Momoa",
+            "Emma Myers",
+            "Jack Black",
+            "Daniella Brooks",
+            "Sebastian Hansen",
+            'Jennifer Coolidge",
+        ].
+    ),
 ]
