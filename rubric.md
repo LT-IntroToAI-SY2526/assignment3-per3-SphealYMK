@@ -13,13 +13,13 @@ Remember: This assignment completes our movie chatbot system - focus on understa
 ## Grading Table
 | Criteria | Points Possible | Points Earned | Comments |
 |----------|----------------|---------------|----------|
-| **Action Functions** | 9 | | |
+| **Action Functions** | 9 | 8 | You have a randome semicolon instead of colon in title_by_year_range |
 | **Core System Functions** | | | |
-| search_pa_list Implementation | 7 | | |
-| query_loop Function | 1 | | |
+| search_pa_list Implementation | 7 | 5 | "I don't understand is not implemented" |
+| query_loop Function | 1 | 1 | |
 | **Creative Additions** | | | |
-| Database & Pattern Extensions | 3 | | |
-| **TOTAL** | **20** | | |
+| Database & Pattern Extensions | 3 | 1 | A movie was added, but not an action function or an item to pa_list. Also in your movie, you start an actor with a ' and then end with a " |
+| **TOTAL** | **20** | 15 | |
 ---
 ## Action Functions (9 points)
 **Basic Movie Queries (5 points)**
